@@ -1,0 +1,17 @@
+{
+  "name": "udacity-javascript-nanodegree",
+  "version": "1.0.0",
+  "description": "Dinosaurs - Udacity's Intermediate JavaScript Nanodegree",
+  "main": "src/index.js",
+  "repository": "https://github.com/RodrigoTHD/udacity-javascript-nanodegree.git",
+  "author": "rodrigothd@gmail.com",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "http-server ./src -o -p 5050"
+  },
+  "dependencies": {
+    "http-server": "14.1.1",
+    "prettier": "2.7.1"
+  }
+}

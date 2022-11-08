@@ -22,7 +22,7 @@ function hideForm() {
 function getFormData() {
   const formData = new FormData(elements.form);
   const result = {};
-  for (var field of formData.entries()) {
+  for (const field of formData.entries()) {
     result[field[0]] = field[1];
   }
   return result;
